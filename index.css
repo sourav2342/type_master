@@ -1,0 +1,193 @@
+
+/*div{
+  border: 1px #ccc solid;
+  margin: 2px;
+}
+*/
+.box1{
+  display: flex;
+  background-color:#567189;
+  background-image: linear-gradient(#567189 ,#86A3B8);
+  width: 100%;
+
+}
+
+.p_nav{
+  display: flex;
+  margin-right: 20px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 85%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.ls{
+  margin-right: 5px;
+}
+
+.patron{
+
+    position: relative;
+    top:0;
+    left: 60%;
+    background-image: linear-gradient(#567189 ,#86A3B8);
+
+}
+
+.logo{
+    height: 1%;
+}
+
+body{
+  background-color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+
+}
+
+.drop_down_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop_down_content div:hover{
+   background-color: #ddd;
+}
+
+.drop_down_content div{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.lang:hover {
+   background-color: #ddd;
+}
+
+
+.type_area{
+  height:40px;
+  width:400px;
+  font-size:29px;
+  background-color:black;
+  color:white;
+  border-radius: 2px;
+  border-width: 3px;
+  border-color: #256D85;
+}
+
+.type_shift{
+  position: relative;
+  top: 160px;
+}
+
+.box2{
+
+    background-color: grey;
+    display: inline-block;
+    width:200px;
+    height: 500px;
+    position:absolute;
+    bottom:100px;
+
+}
+
+.box3{
+
+  width: 60%;
+  height: 600px;
+  display: inline-block;
+  background-color: black;
+  position: absolute;
+  left: 250px;
+  top:  100px;
+
+
+}
+.p{
+
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 5px;
+  color: white;
+
+}
+
+.language{
+
+    position: absolute;
+    top: 50px;
+
+}
+
+.switch_lang{
+
+  display: inline;
+  position: absolute;
+}
+
+.btn{
+
+  width: 70px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.lang{
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+.login{
+  background-color: #1C82AD;
+  color: white;
+
+}
+
+p{
+  position: relative;
+  top: -10px;
+  right: 3px;
+}
+
+.text_area{
+
+    position: absolute;
+    top: 100px;
+
+}
+
+
+.text_diplay{
+
+  height:150px;
+  width:410px;
+  background-color:grey;
+  color:white;
+  border-radius: 2px;
+  border-width: 3px;
+  border-color: #256D85;
+  position:relative;
+  top:100px;
+
+}
